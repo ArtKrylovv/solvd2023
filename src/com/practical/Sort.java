@@ -1,8 +1,9 @@
 package com.practical;
+import java.util.ArrayList;
 
 // all sorting is done in assending order
 public class Sort {
-    public void bubbleSort(int[] array){
+    public int[] bubbleSort(int[] array){
         boolean sorted = false;
         while (!sorted){
             sorted = true;
@@ -12,16 +13,16 @@ public class Sort {
                     int temp = array[i];
                     array[i] = array[i+1];
                     array[i+1] = temp;
-        return;
-
 
                     }
                 }
             }
+        return array;
         }
 
-    public void quickSort(int[] array) {
-        System.out.println("will be impolemented later");
-    }
+
 
 }
+
+
+
